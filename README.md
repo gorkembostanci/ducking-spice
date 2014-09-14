@@ -1,0 +1,4 @@
+ducking-spice
+=============
+
+For coursera.
