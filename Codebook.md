@@ -25,24 +25,25 @@ descriptions, the reader might refer to the original dataset.
 
 The measurements and units are as given. 
 
-Variable		measure		unit
-tBodyAcc-XYZ		accelerometer	time
-tGravityAcc-XYZ		accelerometer	time
-tBodyAccJerk-XYZ	accelerometer	time
-tBodyAccMag		accelerometer	time
-tGravityAccMag		accelerometer	time
-tBodyAccJerkMag		accelerometer	frequency
-fBodyAcc-XYZ		accelerometer	frequency
-fBodyAccJerk-XYZ	accelerometer	frequency
-fBodyAccMag		accelerometer	frequency
-fBodyAccJerkMag		accelerometer	frequency
-tBodyGyro-XYZ		gyroscope	time
-tBodyGyroJerk-XYZ	gyroscope	time
-tBodyGyroMag		gyroscope	time
-tBodyGyroJerkMag	gyroscope	time
-fBodyGyro-XYZ		gyroscope	frequency
-fBodyGyroMag		gyroscope	frequency
-fBodyGyroJerkMag	gyroscope	frequency
+| Variable          | measure       | unit      |
+|-------------------|---------------|-----------|
+| tBodyAcc-XYZ      | accelerometer | time      |
+| tGravityAcc-XYZ   | accelerometer | time      |
+| tBodyAccJerk-XYZ  | accelerometer | time      |
+| tBodyAccMag       | accelerometer | time      |
+| tGravityAccMag    | accelerometer | time      |
+| tBodyAccJerkMag   | accelerometer | frequency |
+| fBodyAcc-XYZ      | accelerometer | frequency |
+| fBodyAccJerk-XYZ  | accelerometer | frequency |
+| fBodyAccMag       | accelerometer | frequency |
+| fBodyAccJerkMag   | accelerometer | frequency |
+| tBodyGyro-XYZ     | gyroscope     | time      |
+| tBodyGyroJerk-XYZ | gyroscope     | time      |
+| tBodyGyroMag      | gyroscope     | time      |
+| tBodyGyroJerkMag  | gyroscope     | time      |
+| fBodyGyro-XYZ     | gyroscope     | frequency |
+| fBodyGyroMag      | gyroscope     | frequency |
+| fBodyGyroJerkMag  | gyroscope     | frequency |
 
 
 The base variable names and their descriptions are as given. XYZ variables take one of the X,Y or 
@@ -51,21 +52,22 @@ mean of the underlying variable.
 
 
  
-Variable		source		domain
-tBodyAcc-XYZ		Time Body Acceleration -XYZ
-tGravityAcc-XYZ		Time Gravity Acceleration -XYZ
-tBodyAccJerk-XYZ	Time Body Acceleration Jerk  XYZ
-tBodyAccMag		Time Body Acceleration Magnitude 
-tGravityAccMag		Time Gravity Acceleration Magnitude 
-tBodyAccJerkMag		Time Body Acceleration Jerk Magnitude 
-fBodyAcc-XYZ		Frequency Body Acceleration -XYZ
-fBodyAccJerk-XYZ	Frequency Body Acceleration Jerk  XYZ
-fBodyAccMag		Frequency Body Acceleration Magnitude 
-fBodyAccJerkMag		Frequency Body Acceleration Jerk Magnitude 
-tBodyGyro-XYZ		Time Body Gyroscope -XYZ
-tBodyGyroJerk-XYZ	Time Body Gyroscope Jerk  XYZ
-tBodyGyroMag		Time Body Gyroscope Magnitude 
-tBodyGyroJerkMag	Time Body Gyroscope Jerk Magnitude 
-fBodyGyro-XYZ		Frequency Body Gyroscope -XYZ
-fBodyGyroMag		Frequency Body Gyroscope Magnitude 
-fBodyGyroJerkMag	Frequency Body Gyroscope Jerk Magnitude 
+| Variable Name     | Description                                    |
+|-------------------|---------------------------------------------|
+| tBodyAcc-XYZ      | Time Body Acceleration -XYZ                 |
+| tGravityAcc-XYZ   | Time Gravity Acceleration -XYZ              |
+| tBodyAccJerk-XYZ  | Time Body Acceleration Jerk  XYZ            |
+| tBodyAccMag       | Time Body Acceleration Magnitude            |
+| tGravityAccMag    | Time Gravity Acceleration Magnitude         |
+| tBodyAccJerkMag   | Time Body Acceleration Jerk Magnitude       |
+| fBodyAcc-XYZ      | Frequency Body Acceleration -XYZ            |
+| fBodyAccJerk-XYZ  | Frequency Body Acceleration Jerk    XYZ     |
+| fBodyAccMag       | Frequency Body Acceleration Magnitude       |
+| fBodyAccJerkMag   | Frequency Body Acceleration Jerk Magnitude  |
+| tBodyGyro-XYZ     | Time Body Gyroscope -XYZ                    |
+| tBodyGyroJerk-XYZ | Time Body Gyroscope Jerk  XYZ               |
+| tBodyGyroMag      | Time Body Gyroscope Magnitude               |
+| tBodyGyroJerkMag  | Time Body Gyroscope Jerk Magnitude          |
+| fBodyGyro-XYZ     | Frequency Body Gyroscope -XYZ               |
+| fBodyGyroMag      | Frequency Body Gyroscope Magnitude          |
+| fBodyGyroJerkMag  | Frequency Body Gyroscope Jerk Magnitude     |
