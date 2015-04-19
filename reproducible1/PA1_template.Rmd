@@ -126,4 +126,3 @@ levels(ivalmeans2[,3]) <- c("Weekday", "Weekend")
 xyplot(IntervalMeans~Interval|Days,ylab="Number of Steps", 
             xlab="Interval",type = "l",data=ivalmeans2)
 ```
-knit2html()
